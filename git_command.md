@@ -1,0 +1,23 @@
+- git add name_copy.md   #將name_copy.md 加入暫存
+ 
+- git add *.png   #將所有.png檔加入暫存
+ 
+- git add .   #將所有檔案加入暫存
+
+- git status   #查看檔案狀態
+
+- git commit -m "備註"   #上傳到存檔點
+
+- git log   #查看存檔點
+
+- git log --oneline   #查看存檔點--逐行
+
+- git checkout 29c3563 -- name_copy.md   #將 name_copy.md 回檔到 存檔點編號29c3563 
+
+- git reset --hard 29c3563   #回檔到存檔點29c3563 並刪除現在到29c3563 之間的所有存檔點
+
+- git push   #上傳到github
+
+- git commit -b branch2   #建立新分支branch2
+
+-more info: https://www.youtube.com/watch?v=FKXRiAiQFiY&t=6s
