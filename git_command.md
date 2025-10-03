@@ -12,6 +12,8 @@
 
 - git log --oneline   #查看存檔點--逐行
 
+- git diff 29c3563   #比較現有版本與29c3563的差異，比較兩版本就在指令後加兩個版本編號
+
 - git checkout 29c3563 -- name_copy.md   #將 name_copy.md 回檔到 存檔點編號29c3563 
 
 - git reset --hard 29c3563   #回檔到存檔點29c3563 並刪除現在到29c3563 之間的所有存檔點
